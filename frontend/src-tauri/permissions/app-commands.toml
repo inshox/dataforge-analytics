@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "app-commands"
+description = "DataForge desktop helpers"
+commands.allow = ["open_logs_folder", "get_app_paths"]

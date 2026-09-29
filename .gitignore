@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.Python
+
+# Build
+frontend/.next/
+frontend/out/
+frontend/src-tauri/target/
+frontend/src-tauri/resources/backend-pack/
+dist/
+build/
+
+# Data (local)
+backend/data/
+data/
+*.db
+*.parquet
+
+# Env
+.env
+.env.local
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# Tauri
+frontend/src-tauri/gen/
+frontend/src-tauri/resources/backend-pack/
